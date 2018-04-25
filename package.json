@@ -1,0 +1,17 @@
+{
+  "name": "picocas-site",
+  "version": "1.0.0",
+  "description": "picocas site",
+  "main": "index.js",
+  "author": "Masaya Kazama <miyan@t-p.jp>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "^1.9.259"
+  }
+}
