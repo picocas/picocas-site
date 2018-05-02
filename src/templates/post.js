@@ -30,7 +30,7 @@ export const query = graphql`
   query BlogPostQuery($id: String!) {
     contentfulPost(id: { eq: $id }) {
       title
-      date
+      date(formatString: "YYYY/MM/DD")
       body {
         body
       }
